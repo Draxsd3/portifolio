@@ -33,21 +33,21 @@ export default function Footer() {
 
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/cleytin_1/"
+            href="https://www.linkedin.com/in/renan-ramos-068759243/"
             className="home__social-icon"
             target="_blank"
           >
             <Instagram className="footer__social-link" />
           </a>
           <a
-            href="https://github.com/Cleyton-Honorato"
+            href="https://github.com/Draxsd3"
             className="home__social-icon"
             target="_blank"
           >
             <Github className="footer__social-link" />
           </a>
           <a
-            href="https://www.linkedin.com/in/cleyton-honorato-a5586215a/"
+            href="https://www.linkedin.com/in/renan-ramos-068759243/"
             className="home__social-icon"
             target="_blank"
           >

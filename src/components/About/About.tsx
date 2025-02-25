@@ -1,5 +1,5 @@
 import AboutImg from "../../assets/about2.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Renan_Ramos.pdf";
 import Info from "./Info";
 import { Download } from "lucide-react";
 
