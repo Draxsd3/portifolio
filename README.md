@@ -1,31 +1,92 @@
-# React + TypeScript + Vite
+# 👋 Olá! Eu sou o Renan Ramos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Seja muito bem-vindo ao repositório do meu portfólio pessoal. Aqui compartilho um pouco da minha jornada como desenvolvedor, meus projetos e minha paixão por tecnologia e inteligência artificial.
 
-Currently, two official plugins are available:
+🌐 Acesse meu portfólio online: [draxsd3.github.io/portifolio](https://draxsd3.github.io/portifolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Sobre o projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Criei este portfólio com o objetivo de mostrar de forma simples, mas eficiente, quem sou eu como profissional e no que estou trabalhando. Nada de coisas complicadas demais — gosto de código limpo, boas ideias e interfaces agradáveis.
 
-- Configure the top-level `parserOptions` property like this:
+Aqui você vai encontrar:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+* Uma apresentação sobre mim
+* Minhas principais habilidades
+* Projetos em que trabalhei ou estou desenvolvendo
+* Um meio direto de entrar em contato
+
+O design foi pensado para ser responsivo e acessível, funcionando bem tanto no desktop quanto no celular.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+Este projeto foi desenvolvido utilizando:
+
+* React
+* Vite
+* JavaScript moderno (ES6+)
+* CSS3
+
+Arquitetado com foco em performance, componentização e experiência responsiva.
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+portifolio/
+├── .vite/                 # Cache do Vite
+├── public/                # Arquivos estáticos
+├── src/                   # Código-fonte principal
+│   ├── components/        # Componentes reutilizáveis
+│   ├── pages/             # Seções do site
+│   └── assets/            # Imagens e recursos visuais
+├── index.html             # HTML principal
+├── main.js                # Ponto de entrada
+├── styles.css             # Estilos globais
+├── vite.config.ts         # Configuração do Vite
+├── package.json           # Dependências e scripts
+└── tsconfig.json          # Configuração TypeScript
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# new-portifolio
+---
+
+## 🚀 Como rodar localmente
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/Draxsd3/portifolio.git
+
+# Acesse a pasta do projeto
+$ cd portifolio
+
+# Instale as dependências
+$ npm install
+
+# Inicie o servidor de desenvolvimento
+$ npm run dev
+```
+
+---
+
+## 📫 Fale comigo
+
+Se quiser bater um papo, trocar uma ideia ou me chamar para um projeto, fico muito feliz em conversar:
+
+* Email: **dev.renan2004@gmail.com**
+* LinkedIn: https://www.linkedin.com/in/renan-ramos-068759243/
+
+---
+
+## 📝 Licença
+
+Este portfólio é um projeto pessoal e está sob a licença MIT. Pode usar como base se quiser montar o seu também :)
+
+---
+
+<p align="center">
+  Feito com carinho por <strong>Renan Ramos</strong> 💙
+</p>
