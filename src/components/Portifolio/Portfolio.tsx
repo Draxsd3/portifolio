@@ -1,5 +1,8 @@
+
 import React, { useState } from 'react';
 import './Portfolio.css';
+import logo from '../../assets/logo.png';
+import crmGoldCredit from '../../assets/crm-goldcredit.png';
 
 const portfolioData = [
   {
@@ -26,14 +29,25 @@ const portfolioData = [
   },
   {
     id: 3,
-    title: "Social Media App",
-    subtitle: "Mobile Development",
-    description: "Feature-rich social media application with real-time messaging, content sharing, and community engagement.",
-    image: "https://i.ibb.co/v6jy8qp9/Logos-8.png",
-    tags: ["React Native", "Redux", "Node.js","Firebase"],
-    category: "mobile",
+    title: "CRM Gold Credit",
+    subtitle: "Sistema CRM Corporativo Exclusivo",
+    description: "Sistema de CRM personalizado e exclusivo para a Gold Credit, desenvolvido sob medida para integrar, gerenciar e otimizar o relacionamento com clientes e leads. Solução interna, sofisticada e eficiente, com foco em integração tecnológica e automação de processos.",
+    image: crmGoldCredit,
+    tags: ["Node.js", "React.js", "MySQL", "Solução Interna"],
+    category: "web",
     demoLink: "#",
     codeLink: "#"
+  },
+  {
+    id: 4,
+    title: "Meu Portfólio",
+    subtitle: "Front-End Development",
+    description: "Portfólio pessoal desenvolvido com React, TypeScript e Vite, destacando meus projetos, habilidades e experiências profissionais.",
+  image: logo,
+    tags: ["React.js", "TypeScript", "Vite", "GitHub Pages"],
+    category: "web",
+    demoLink: "https://draxsd3.github.io/portifolio/",
+    codeLink: "https://github.com/Draxsd3/portifolio"
   }
 ];
 
