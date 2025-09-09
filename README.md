@@ -88,5 +88,5 @@ Este portfólio é um projeto pessoal e está sob a licença MIT. Pode usar como
 ---
 
 <p align="center">
-  Feito com carinho por <strong>Renan Ramos</strong> 💙
+ <strong>Renan Ramos</strong> 💙
 </p>
