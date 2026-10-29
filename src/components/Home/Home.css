@@ -111,9 +111,11 @@
 
 /* Imagem de perfil aprimorada */
 .home__img {
-  background: url(../../assets/my.jpg);
+  background: url(../../assets/profile-edited.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  /* A foto é retrato (683x1024): deslocamos o recorte para cima
+     para que o rosto apareça centralizado no blob quadrado. */
+  background-position: center 18%;
   background-size: cover;
   box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
   order: 1;

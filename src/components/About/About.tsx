@@ -1,4 +1,4 @@
-import AboutImg from "../../assets/about2.jpg";
+import AboutImg from "../../assets/profile-edited.jpg";
 import CV from "../../assets/Renan_Ramos.pdf";
 import Info from "./Info";
 import { Download } from "lucide-react";
