@@ -4,8 +4,10 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // When deploying to GitHub Pages the project will be served from a
-  // sub‑folder named after the repository. The trailing slash is
-  // important so that assets resolve correctly (e.g. `/portifolio/`).
-  base: "/portifolio/",
+  // No GitHub Pages o projeto é servido de um sub-folder (`/portifolio/`),
+  // mas na Vercel o site roda na raiz do domínio. Com o base fixo em
+  // "/portifolio/", todos os assets (JS, CSS e imagens) 404 na Vercel.
+  // A Vercel injeta a env VERCEL durante o build, então usamos base "/"
+  // apenas lá e mantemos "/portifolio/" para o deploy de GitHub Pages.
+  base: process.env.VERCEL ? "/" : "/portifolio/",
 });
